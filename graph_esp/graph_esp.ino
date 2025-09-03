@@ -2,8 +2,8 @@
 #include <ESP8266WebServer.h>
 #include <ArduinoJson.h>
 
-const char* ssid = "IoT LAB";      
-const char* password = "kvt1ptit";   
+const char* ssid = ""; //ur wifi      
+const char* password = ""; // ur password
 
 ESP8266WebServer server(80);
 

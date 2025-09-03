@@ -40,3 +40,40 @@
 .read-the-docs {
   color: #888;
 }
+
+body {
+  margin: 0;
+  font-family: sans-serif;
+  background-color: #181818; /* background tổng thể */
+  color: #fff;
+}
+
+.header {
+  font-size: 2rem;
+  font-weight: bold;
+  margin: 20px;
+}
+
+.parent {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);  
+  gap: 20px;
+  padding: 20px;
+  box-sizing: border-box;
+}
+
+.chart-container {
+  background-color: #242424; 
+  padding: 20px;
+  border-radius: 16px;
+  box-shadow: 0 4px 6px rgba(0,0,0,0.5);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.chart-container h2 {
+  margin-bottom: 12px;
+  font-size: 1.2rem;
+  font-weight: 600;
+}

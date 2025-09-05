@@ -28,7 +28,7 @@ let latestData = { temperature: null, humidity: null, gas: null, timestamp: null
 
 async function fetchESPData() {
   try {
-    const res = await axios.get("http://192.168.75.160/data");
+    const res = await axios.get("http://192.168.88.144/data");
     latestData = {
       ...res.data,
       timestamp: new Date().toISOString()

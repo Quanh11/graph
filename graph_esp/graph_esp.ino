@@ -2,13 +2,8 @@
 #include <ESP8266WebServer.h>
 #include <ArduinoJson.h>
 
-<<<<<<< HEAD
 const char* ssid = "EW_922ad4";      
 const char* password = "EW@922ad4";   
-=======
-const char* ssid = ""; //ur wifi      
-const char* password = ""; // ur password
->>>>>>> c5af433e5f9030cc64abf59e811d611e9167788d
 
 ESP8266WebServer server(80);
 

@@ -36,9 +36,9 @@ async function fetchESPData() {
 
     const newRecord = new SensorData(latestData);
     await newRecord.save();
-    console.log("✅ Data saved to MongoDB");
+    console.log("Data saved to MongoDB");
   } catch (err) {
-    console.error("❌ Error fetching or saving data:", err.message);
+    console.error("Error fetching or saving data:", err.message);
   }
 }
 
@@ -61,5 +61,5 @@ app.get("/api/history", async (req, res) => {
 
 const PORT = 5000;
 app.listen(PORT, "0.0.0.0", () => {
-  console.log(`🚀 Server running on port ${PORT}`);
+  console.log(`Server running on port ${PORT}`);
 });
